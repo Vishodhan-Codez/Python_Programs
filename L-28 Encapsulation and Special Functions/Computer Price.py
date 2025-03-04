@@ -12,3 +12,5 @@ foop.sell() # will print 900
 
 foop.setmrp(int(input("Enter a max price : ")))
 foop.sell()
+
+ 
