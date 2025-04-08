@@ -22,7 +22,7 @@ def display() :
 
 textbox = Text(bg="#bebebe",fg="black")
 
-button = Button(text="Create Account",command=display(),bg="red")
+button = Button(text="Create Account",command=display,bg="red")
 
 frame.place(x=20, y=0)
 
