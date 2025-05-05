@@ -9,8 +9,7 @@ def myfunction(n):
         print("Second Loop", j)
         j = j * 2
     # Second loop: j doubles each time until it exceeds n+1
-    # Since the no.of iterations is slowly grows by doubling, it will need lesser iterations than n
-    # Time complexity: No.of iterations is always lesser than n O(<n)
+    # Time complexity: O(log(n))
 
     for i in range(0, 100):
         print("Third Loop")

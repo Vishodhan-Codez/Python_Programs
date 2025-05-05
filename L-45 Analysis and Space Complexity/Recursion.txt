@@ -1,0 +1,21 @@
+def prints(n):
+	if (n <= 0):
+		return
+	prints(n/2)
+	prints(n/2)
+
+
+Time Complexity :
+T = T(n/2) + T(n/2) + θ(1) [if n > 0]
+T = T(1) [if n <= 0]
+
+#Time Complexity Map
+
+					T(n)
+				/			\	
+		  T(n/2)			 T(n/2)
+		   /   \			/	  \
+	  T(n/4)	T(n/4)   T(n/4)   T(n/4)
+	  /    \    /    \   /    \    /    \
+	...    ... ...  ... ...   ... ...   ...
+
