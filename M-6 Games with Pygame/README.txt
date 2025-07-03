@@ -1,0 +1,1 @@
+shift pygame the subfolder to main for space invader to load
